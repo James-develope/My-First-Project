@@ -1,0 +1,237 @@
+.btn-Edit{
+    background-color:rgb(55, 148, 185);
+    border-radius: 10px;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.btn-Read{
+    background-color:rgb(17, 77, 17);
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+.btn-Delete{
+    background-color:red;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+span{
+    margin: 10px;
+    width: 10px;
+}
+.btn-Filter{
+    background-color: orange;
+    border-radius: 7px;
+}
+.table{
+    margin-top: 50px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+th,td{
+    padding: 10px;
+}
+.Export-btn{
+    padding: 10px;
+    border: 1px solid orange;
+    background-color:orange;
+    color:white;
+    width: 100px;
+    font-style: italic;
+    border-radius: 12px;
+}
+a{
+    color: white;
+    margin-left: 8px;
+}
+.Add-btn{
+    padding: 10px;
+    border: 1px solid orange;
+    background-color:orange;
+    color: white;
+    width: 128px;
+    font-style: italic;
+    border-radius: 12px;
+}
+
+.Fsearch{
+    position: relative;
+    left: 50px;
+    bottom: -4px;
+}
+.input{
+    padding-left: 7px;
+    width: 300px;
+    border-radius: 7px;
+    padding-left: 35px;
+    border: none;
+    outline: none;
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Heading{
+    width: 850px;
+    padding: 15px;
+    padding-left: 40px;
+    border: none;
+    outline: none;
+}
+.header{
+    margin-top: 50px;
+}
+.one-search{
+    position: relative;
+    left: 35px;
+    bottom: -4px;
+}
+.bell-icon{
+    position: relative;
+    right: 40px;
+    bottom: -5px;
+}
+body{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+}
+main{
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url(..//Sections/pexels-souvenirpixels-417074.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    padding: 10px;
+    background-color: wheat;
+}
+.sidebar{
+    background-color: coral;
+    color: black;
+    width: 200px;
+}
+.top-section{
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+}
+.logo{
+    color: white;
+}
+.bars{
+    display: flex;
+    margin-left: 10px;
+}
+.link{
+    display: flex;
+    padding: 10px 15px;
+    gap : 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background-color: yellow;
+    transition: all 0.5s;
+}
+.active{
+    background-color: yellow;
+    color: black;
+}
+.icon,.link-text{
+    font-size: 20px;
+}
+select{
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 5px;
+}
+.product-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+    font-size: larger;
+    color:darkred;
+}
+.Chart{
+    display: flex;
+    justify-content: space-around;
+}
+.Chart-1{
+    width: 560px;
+    height: 300px;
+    margin-top: 190px;
+}
+.Chart-2{
+    width: 500px;
+    height: 300px;
+    margin-top: 190px;
+}
+.Chart-image1{
+    width: 250px;
+    height: 200px;
+    background-color:antiquewhite;
+    border-radius: 10px;
+}
+.Chart-image2{
+    width: 250px;
+    height: 200px;
+    background-color: #f44236;
+    border-radius: 10px;
+}
+.Chart-image3{
+    width: 250px;
+    height: 200px;
+    background-color: #01c853;
+    border-radius: 10px;
+}
+.Chart-image4{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #673ab7;
+}
+.image-graph{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.error{
+    color: red;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.detail{
+    position: relative;
+    margin-top: -180px;
+    margin-left: -130px;
+}

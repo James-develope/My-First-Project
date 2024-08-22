@@ -1,15 +1,18 @@
 const express = require("express")
 const mongoose = require("mongoose")
 const cors = require("cors")
+const dotenv = require("dotenv")
 const app = express()
 app.use(cors())
 app.use(express.json())
-
-mongoose.connect("mongodb+srv://james:James007@cluster0.knboo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+dotenv.config()
+const port = process.env.PORT
+const url = process.env.MONGO_URI
+mongoose.connect(url,
 {
 useNewUrlParser:true,
 useUnifiedTopology:true,
-}).then(()=>app.listen(3030,()=>{
+}).then(()=>app.listen(port,()=>{
     console.log("Backend Server running sucessfully");
 })).catch((error)=>console.log(error))
 
